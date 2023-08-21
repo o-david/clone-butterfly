@@ -1,42 +1,52 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+*{
+  margin: 0;
+  padding: 0;
+}
+#home{
+  background-image: url('./assets/homeBg.png');
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+}
+#home img{
+  width: 236px;
+  position: absolute;
+  top: 8%;
+}
+#welcome{
+  padding-top: 50vh;
   text-align: center;
+  color: #fff;
+  font-size: 3.5rem;
+  margin-bottom: 20vh;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.btn_cmp{
+  border: none;
+  color:#fff;
+  background-color: #EE4D9B;
+  padding: 1rem;
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 2vh;
+  font-size: x-large;
+  width:40vw;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#home_btn{
+  padding-left:20vw ;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 990px){
+  .btn_cmp{
+    width: 90vw;
+    margin:2vh auto
   }
-  to {
-    transform: rotate(360deg);
+  #welcome{
+    padding-top: 20vh;
+
   }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+  #home_btn{
+    padding-left:0 ;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+}  
