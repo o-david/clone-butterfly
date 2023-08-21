@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const ButtonComponent = () => {
+const ButtonComponent = ({label}) => {
   return (
-    <div>ButtonComponent</div>
-  )
-}
+    <>
+      <button className="btn_cmp">{label}</button>
+    </>
+  );
+};
 
-export default ButtonComponent
+export default ButtonComponent;
