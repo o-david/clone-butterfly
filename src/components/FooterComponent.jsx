@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>this is a second trioal    </div>
+    <p id='footer'>Tamasu Butterfly Europe GmbH | Imprint | © 2022. All Rights reserved.</p>
   )
 }
 
