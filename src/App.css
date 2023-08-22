@@ -36,6 +36,14 @@
 #home_btn{
   padding-left:20vw ;
 }
+#footer{
+  color: #858E96;
+  background-color: #343A3F;
+  text-align: center;
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+
+}
 
 @media (max-width: 990px){
   .btn_cmp{
