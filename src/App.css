@@ -42,13 +42,17 @@
 }
 .countries_grp{
   padding-left: 1.5% ;
+  margin:2vh 0;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 10px;
 }
 #countries_top{
   width: 100%;
-  margin-top: 5vh;
+  margin: 5vh auto;
   background-color: #D3D3D3;
   text-align: center;
-  padding: 3vh 0;
+  padding: 2vh 0;
 }
 .ind_countries{
   color: blue;
@@ -83,5 +87,8 @@
   }
   #home_btn{
     padding-left:0 ;
+  }
+  .countries_grp{
+    grid-template-columns: 30% 30%;
   }
 }  

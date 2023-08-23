@@ -1,5 +1,12 @@
 const data = [
     {
+      id: 20,
+      img: "https://www.butterfly.tt/flags/international.png",
+      name: "International Online Store",
+      europe: true,
+      storeLink: "https://butterfly-adria.com/",
+    },
+    {
       id: 1,
       img: "https://www.butterfly.tt/flags/albania.svg",
       name: "Albenia",
