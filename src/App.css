@@ -36,6 +36,32 @@
 #home_btn{
   padding-left:20vw ;
 }
+#countries{
+  width: 80vw;
+  margin: 5vh auto;
+}
+.countries_grp{
+  padding-left: 1.5% ;
+}
+#countries_top{
+  width: 100%;
+  margin-top: 5vh;
+  background-color: #D3D3D3;
+  text-align: center;
+  padding: 3vh 0;
+}
+.ind_countries{
+  color: blue;
+  display:flex ;
+  align-items: center;
+  gap: 10px;
+
+}
+.ind_countries img{
+  width: 3vw;
+  border-radius: 50%;
+}
+
 #footer{
   color: #858E96;
   background-color: #343A3F;
@@ -44,6 +70,7 @@
   padding-bottom: 2vh;
 
 }
+
 
 @media (max-width: 990px){
   .btn_cmp{
