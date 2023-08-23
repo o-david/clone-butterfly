@@ -23,7 +23,7 @@ const Countries = () => {
         <div className="countries_grp">
           {data &&
             data
-              .filter((country) => country.europe && country.id!=20)
+              .filter((country) => country.europe && country.id!=100)
               .map((ind) => (
                 <div className="ind_countries">
                   <img src={ind.img} alt="no network" />

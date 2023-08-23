@@ -6,7 +6,7 @@ const HeadingComponent = ({ children, title }) => {
           <div className="page">
             {title && (
               <>
-                <h1 className="heading">{title}</h1>
+                <h1 id="heading">{title}</h1>
                 <hr />
               </>
             )}
