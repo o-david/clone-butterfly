@@ -1,8 +1,10 @@
-## Link and Screenshots of the original site
+## Link and Screenshots of the original site and the clone
 
 <a href="https://www.butterfly.tt/">
-<img src="./src/assets/homeBg.png" alt="image of screenshot">
-  <h1>click on me</h1>
+<img src="./src/assets/original_site" alt="image of screenshot">
+  <h1>Original Site</h1>
 </a>
-
-# Link and Screenshots of my clone  
+<a href="https://www.butterfly.tt/">
+<img src="./src/assets/original_site" alt="image of screenshot">
+  <h1>My Clone</h1>
+</a>
