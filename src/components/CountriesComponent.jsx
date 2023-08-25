@@ -5,7 +5,7 @@ import data from "../data";
 const Countries = () => {
   return (
     <div id="countries">
-      <h2 id="countries_top">Countries</h2>
+      <h2 id="countries_top" className="text-[red]">Countries</h2>
 
       <HeadingComponent title="General">
         <div className="countries_grp">
