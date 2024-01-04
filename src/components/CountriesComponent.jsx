@@ -2,7 +2,7 @@ import React from "react";
 import HeadingComponent from "./HeadingComponent";
 import data from "../data";
 
-const Countries = () => {
+const CountriesComponent = () => {
   return (
     <div id="countries">
       <h2 id="countries_top" className="text-[red]">Countries</h2>
@@ -49,4 +49,4 @@ const Countries = () => {
   );
 };
 
-export default Countries;
+export default CountriesComponent;

@@ -2,7 +2,7 @@ import React from "react";
 import Logo from "../assets/butterfly_logo-min.png";
 import ButtonComponent from "./ButtonComponent";
 
-const Home = () => {
+const HomeComponent = () => {
   return (
     <div id="home">
       <img src={Logo} alt="dey play" />
@@ -15,4 +15,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomeComponent;
